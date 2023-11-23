@@ -1,4 +1,4 @@
-import { getPostBySlug } from "@/app/lib/posts";
+import { getPostBySlug, getPosts } from "@/app/lib/posts";
 import { notFound } from "next/navigation";
 
 type blogPostParams = {
@@ -6,6 +6,13 @@ type blogPostParams = {
     slug: string;
   };
 };
+
+export function generateStaticParams() {
+  const posts = getPosts();
+  return posts.map((post) => {
+    return { slug: post.slug };
+  });
+}
 
 export default function Page({ params }: blogPostParams) {
   const post = getPostBySlug(params.slug);
