@@ -14,7 +14,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className="mx-16 my-8">{children}</body>
     </html>
   );
 }
