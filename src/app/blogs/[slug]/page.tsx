@@ -3,6 +3,7 @@ export default function Page() {
     <main>
       <h2>This is the post title.</h2>
       <p>This is the post body.</p>
+      <p>banching out</p>
     </main>
   );
 }
