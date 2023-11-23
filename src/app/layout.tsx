@@ -19,7 +19,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="my-8">
+      <body className="m-8">
         <div className={`${nunito.className} container mx-auto`}>
           {children}
         </div>
