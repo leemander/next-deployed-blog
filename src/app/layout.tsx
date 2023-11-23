@@ -1,6 +1,11 @@
 import type { Metadata } from "next";
 
+import { Nunito } from "next/font/google";
+
+const nunito = Nunito({ subsets: ["latin"] });
+
 import "./globals.css";
+import next from "next";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -14,7 +19,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="mx-16 my-8">{children}</body>
+      <body className="my-8">
+        <div className={`${nunito.className} container mx-auto`}>
+          {children}
+        </div>
+      </body>
     </html>
   );
 }

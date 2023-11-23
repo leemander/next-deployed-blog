@@ -23,7 +23,9 @@ export default function Page({ params }: blogPostParams) {
 
   return (
     <main>
-      <h2 className="text-2xl font-bold mb-4 font-serif">{post.title}</h2>
+      <h2 className="text-2xl font-bold mb-4 font-serif text-green-700 underline decoration-red-600">
+        {post.title}
+      </h2>
       <p>{post.content}</p>
     </main>
   );

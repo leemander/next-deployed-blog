@@ -1,45 +1,52 @@
 const CATEGORIES = [
-  { name: "Humans", catslug: "humans" },
-  { name: "Animals", catslug: "animals" },
-  { name: "Tech Rants", catslug: "tech-rants" },
+  { name: "Sports", catslug: "sports" },
+  { name: "Culture", catslug: "culture" },
+  { name: "Entertainment", catslug: "entertainment" },
+  { name: "Fashion", catslug: "fashion" },
 ];
 
 const POSTS = [
-  // existing posts...
   {
-    title: "Tailwind CSS: More Like a Headwind!",
-    slug: "tailwind-headwind",
+    title: "The Exciting World of Lucha Libre",
     content:
-      "Tailwind CSS, oh how you've complicated my life! What's with the never-ending class names and the constant flipping between documentation? Utility-first? More like confusion-first!",
-    category: "tech-rants",
+      "Step into the electrifying world of Lucha Libre, where the roar of the crowd mixes with the acrobatic prowess of masked wrestlers. In this high-octane sport, competitors fly off the ropes, executing gravity-defying maneuvers that keep fans on the edge of their seats. From the iconic masks to the dramatic storytelling in the ring, explore the unique blend of athleticism and theatricality that defines the exciting universe of Lucha Libre.",
+    slug: "exciting-world-lucha-libre",
+    category: "Sports",
   },
   {
-    title: "SASS or SASSy Mess?",
-    slug: "sass-mess",
+    title: "Behind the Mask: The Mystery of Luchadores",
     content:
-      "SASS seemed like a dream with variables and mixins. Now, it's just layers upon layers of nested nightmares. I'm spending more time debugging than coding!",
-    category: "tech-rants",
+      "Delve into the enigmatic world behind the masks worn by Luchadores, the iconic symbols of Mexican wrestling. These masks are more than just accessories; they are embodiments of tradition, identity, and even superstition. Uncover the deep-rooted cultural significance of the masks, as well as the rituals and ceremonies associated with their creation. Join us on a journey to unveil the mystery that lies beneath the surface of these symbolic and often elaborate facial coverings.",
+    slug: "behind-the-mask-luchadores",
+    category: "Culture",
   },
   {
-    title: "Responsive Design: A Responsive Headache",
-    slug: "responsive-headache",
+    title: "Top 10 Lucha Libre Moves You Must See",
     content:
-      "Responsive design? More like irresponsive! One minute, everything looks great, the next, it's a jumbled mess. And don't get me started on media queries!",
-    category: "tech-rants",
+      "Prepare for an adrenaline-fueled ride through the top 10 jaw-dropping Lucha Libre moves that leave audiences in awe. From gravity-defying flips to bone-crushing slams, these maneuvers showcase the incredible athleticism and skill of Luchadores. Whether you're a seasoned fan or a newcomer to the world of Mexican wrestling, this list is your passport to the heart-pounding, high-flying action that defines Lucha Libre in the ring.",
+    slug: "top-10-lucha-libre-moves",
+    category: "Entertainment",
   },
   {
-    title: "Browser Compatibility: The Eternal Torment",
-    slug: "browser-torment",
+    title: "Legendary Luchadores: Heroes of the Ring",
     content:
-      "Browser compatibility is a cruel joke. You align everything perfectly in one browser, and it's a disaster in another. It's like playing whack-a-mole with CSS!",
-    category: "tech-rants",
+      "Meet the larger-than-life personalities that have etched their names in the annals of Lucha Libre history. These legendary Luchadores are not just athletes; they are cultural icons and heroes. From the iconic El Santo to the contemporary stars making waves today, discover the stories behind the masks and the legacies they've created. Join us as we celebrate the heroes of the ring and their lasting impact on the world of professional wrestling.",
+    slug: "legendary-luchadores-heroes",
+    category: "Sports",
   },
   {
-    title: "Where did I bury my stick?",
-    slug: "stick-post",
+    title: "Lucha Libre and Cultural Significance",
     content:
-      "this is a blog post from a dog. How did that happen. Dogs can&apos;t type",
-    category: "animals",
+      "Beyond the ring, Lucha Libre has woven itself into the cultural fabric of Mexico and beyond. Explore how this dynamic sport reflects the values, traditions, and aspirations of the Mexican people. From its roots in ancient Mesoamerican traditions to its modern-day resonance in popular culture, Lucha Libre has become a symbol of national identity. Join us as we delve into the cultural significance that makes Lucha Libre more than just a sport; it's a vibrant expression of a rich and diverse heritage.",
+    slug: "lucha-libre-cultural-significance",
+    category: "Culture",
+  },
+  {
+    title: "The Evolution of Lucha Libre Costumes",
+    content:
+      "Take a visual journey through time as we explore the evolution of Lucha Libre costumes. From the early days of simple, utilitarian attire to the elaborate and vibrant designs of today, these costumes are an integral part of the spectacle. Discover the symbolism behind the colors, patterns, and motifs adorning the iconic masks and capes. Join us in appreciating the artistry and creativity that goes into crafting the visual identity of Lucha Libre and how it continues to captivate audiences worldwide.",
+    slug: "evolution-lucha-libre-costumes",
+    category: "Fashion",
   },
 ];
 
