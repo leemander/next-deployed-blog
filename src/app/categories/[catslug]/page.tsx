@@ -21,7 +21,7 @@ export default function Page({ params }: { params: { catslug: string } }) {
           "text-3xl font-bold font-serif text-green-700 " + faustina.className
         }
       >
-        "{category.name}" blogs
+        &qout;{category.name}&qout; blogs
       </h2>
       <ul className="grid gap-2 my-4">
         {categoryPosts.map((post) => {
