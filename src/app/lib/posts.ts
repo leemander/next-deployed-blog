@@ -64,5 +64,5 @@ export function getCategories() {
 }
 
 export function getPostByCategory(catslug: string) {
-  return POSTS.filter((post) => post.category === catslug);
+  return POSTS.filter((post) => post.category.toLowerCase() === catslug);
 }

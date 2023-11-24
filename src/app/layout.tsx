@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Header from "./Header";
 
 import { Nunito } from "next/font/google";
 
@@ -19,8 +20,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="m-8">
-        <div className={`${nunito.className} container mx-auto`}>
+      <body className="">
+        <Header />
+        <div className={`${nunito.className} container p-4 mx-auto`}>
           {children}
         </div>
       </body>
